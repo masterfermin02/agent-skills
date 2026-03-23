@@ -1,6 +1,6 @@
 ---
 name: unit-testing
-description: Write, review, and improve unit tests using best practices. Framework-agnostic — applies to any language or test framework (xUnit, Jest, PHPUnit, Pest, JUnit, etc.). Use when: writing new unit tests, reviewing existing tests for quality, refactoring fragile or brittle tests, choosing between mocks/stubs/fakes/spies, naming tests, structuring test files, identifying anti-patterns, generating test doubles, or applying patterns like AAA, Object Mother, Builder, or Assert Object.
+description: Write, review, and improve unit tests using best practices. Framework-agnostic — applies to any language or test framework (xUnit, Jest, PHPUnit, Pest, JUnit, etc.). Use when: writing new unit tests, reviewing existing tests for quality, refactoring fragile or brittle tests, choosing between mocks/stubs/fakes/spies, naming tests, structuring test files, identifying anti-patterns, generating test doubles, or applying patterns like AAA, Object Mother, Builder, or Assert Object. Also triggers on phrases like "generate tests for this code", "my tests are brittle", "tests keep breaking", "how do I mock this", "what's the difference between mock and stub", "write a test for", "add tests to", "test coverage", "unit test this", "improve my tests", "tests are hard to maintain".
 ---
 
 # Unit Testing Skill
