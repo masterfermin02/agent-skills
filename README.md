@@ -8,6 +8,9 @@ Custom OpenClaw agent skills built by [@masterfermin02](https://github.com/maste
 |-------|-------------|
 | [unit-testing](./unit-testing/) | Framework-agnostic unit testing best practices (AAA, Object Mother, Builder, test doubles, anti-patterns) |
 | [csharp-unit-testing](./csharp-unit-testing/) | C#-specific unit testing with xUnit, Moq, and FluentAssertions |
+| [laravel-best-practices](./laravel-best-practices/) | Laravel best practices for controllers, FormRequests, Eloquent, services/actions, policies, jobs, and Inertia (React + Vue) |
+| [laravel-update-with-rector](./laravel-update-with-rector/) | Upgrade Laravel applications using Rector and driftingly/rector-laravel (supports Laravel 12 & 13) |
+| [php-update-with-rector](./php-update-with-rector/) | Upgrade plain PHP code to newer PHP versions using Rector |
 
 ---
 
