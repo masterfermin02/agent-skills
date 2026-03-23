@@ -8,9 +8,9 @@ Custom OpenClaw agent skills built by [@masterfermin02](https://github.com/maste
 |-------|-------------|
 | [unit-testing](./unit-testing/) | Framework-agnostic unit testing best practices (AAA, Object Mother, Builder, test doubles, anti-patterns) |
 | [csharp-unit-testing](./csharp-unit-testing/) | C#-specific unit testing with xUnit, Moq, and FluentAssertions |
-| [laravel-best-practices](./laravel-best-practices/) | Laravel best practices for controllers, FormRequests, Eloquent, services/actions, policies, jobs, and Inertia (React + Vue) |
-| [laravel-update-with-rector](./laravel-update-with-rector/) | Upgrade Laravel applications using Rector and driftingly/rector-laravel (supports Laravel 12 & 13) |
-| [php-update-with-rector](./php-update-with-rector/) | Upgrade plain PHP code to newer PHP versions using Rector |
+| [laravel-best-practices](./laravel-agent-skill/skills/laravel-best-practices/) | Laravel best practices for controllers, FormRequests, Eloquent, services/actions, policies, jobs, and Inertia (React + Vue) |
+| [laravel-update-with-rector](./laravel-agent-skill/skills/laravel-update-with-rector/) | Upgrade Laravel applications using Rector and driftingly/rector-laravel (supports Laravel 12 & 13) |
+| [php-update-with-rector](./laravel-agent-skill/skills/php-update-with-rector/) | Upgrade plain PHP code to newer PHP versions using Rector |
 
 ---
 
@@ -60,6 +60,31 @@ skill-name/
     ├── patterns.md
     ├── anti-patterns.md
     └── test-doubles.md
+```
+
+---
+
+## Submodules
+
+The Laravel skills live in a separate repo and are included here as a git submodule:
+
+- **[masterfermin02/laravel-agent-skill](https://github.com/masterfermin02/laravel-agent-skill)** → `laravel-agent-skill/`
+
+After cloning this repo, initialize the submodule:
+
+```bash
+git clone --recurse-submodules https://github.com/masterfermin02/agent-skills.git
+# or if already cloned:
+git submodule update --init --recursive
+```
+
+To pull the latest changes from the Laravel skill repo:
+
+```bash
+git submodule update --remote --merge
+git add laravel-agent-skill
+git commit -m "chore: update laravel-agent-skill submodule"
+git push
 ```
 
 ---
