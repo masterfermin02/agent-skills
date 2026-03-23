@@ -5,6 +5,20 @@ description: Write, review, and improve unit tests using best practices. Framewo
 
 # Unit Testing Skill
 
+## Installation
+
+```bash
+# via skills.sh
+npx skillsadd masterfermin02/agent-skills --skill unit-testing
+
+# via ClaWHub
+npx clawhub@latest install masterfermin02/agent-skills/unit-testing
+
+# manual
+git clone https://github.com/masterfermin02/agent-skills.git
+cp -r agent-skills/unit-testing ~/.openclaw/skills/
+```
+
 Framework-agnostic unit testing best practices. Apply these patterns regardless of language or test runner.
 
 ## Core Principles
