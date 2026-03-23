@@ -1,6 +1,6 @@
 ---
 name: csharp-unit-testing
-description: Write, review, and improve unit tests specifically in C# using xUnit, Moq, and FluentAssertions. Use when working with C# or .NET test projects, writing xUnit tests, using Moq for mocking, FluentAssertions for assertions, or applying C#-specific patterns like Theory/InlineData parameterized tests, IClassFixture, or xUnit test organization. Extends the general unit-testing skill with C#-specific examples and stack guidance. Triggers on: "write a C# test", "xUnit test", "Moq mock", "FluentAssertions", "C# unit test", ".NET test project", "Theory InlineData", "add tests to my C# class".
+description: "Write, review, and improve unit tests specifically in C# using xUnit, Moq, and FluentAssertions. Use when working with C# or .NET test projects, writing xUnit tests, using Moq for mocking, FluentAssertions for assertions, or applying C#-specific patterns like Theory/InlineData parameterized tests, IClassFixture, or xUnit test organization. Extends the general unit-testing skill with C#-specific examples and stack guidance. Triggers on write a C# test, xUnit test, Moq mock, FluentAssertions, C# unit test, .NET test project, Theory InlineData, add tests to my C# class."
 ---
 
 # C# Unit Testing Skill
