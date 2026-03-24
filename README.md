@@ -13,6 +13,7 @@ Custom OpenClaw agent skills built by [@masterfermin02](https://github.com/maste
 | [laravel-update-with-rector](./laravel-update-with-rector/) | Upgrade Laravel applications using Rector (supports Laravel 12 & 13) — sourced from [laravel-agent-skill](https://github.com/masterfermin02/laravel-agent-skill) |
 | [php-update-with-rector](./php-update-with-rector/) | Upgrade plain PHP code to newer PHP versions using Rector — sourced from [laravel-agent-skill](https://github.com/masterfermin02/laravel-agent-skill) |
 | [php-the-right-way](./php-the-right-way/) | PHP best practices based on [phptherightway.com](https://phptherightway.com) — PSR standards, security, design patterns, Composer, testing, and modern PHP 8.x idioms |
+| [meal-log](./meal-log/) | Log food and drinks into a fitness food log JSON file. Tracks macros (protein, carbs, fat, calories) against daily targets. Triggers on any food/drink mention or food photo. |
 
 ---
 
