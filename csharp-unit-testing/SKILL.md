@@ -5,20 +5,6 @@ description: "Write, review, and improve unit tests specifically in C# using xUn
 
 # C# Unit Testing Skill
 
-## Installation
-
-```bash
-# via skills.sh
-npx skillsadd masterfermin02/agent-skills --skill csharp-unit-testing
-
-# via ClaWHub
-npx clawhub@latest install masterfermin02/agent-skills/csharp-unit-testing
-
-# manual
-git clone https://github.com/masterfermin02/agent-skills.git
-cp -r agent-skills/csharp-unit-testing ~/.openclaw/skills/
-```
-
 C#-specific unit testing guidance using **xUnit + Moq + FluentAssertions**.
 
 > This skill extends the general `unit-testing` skill. All framework-agnostic principles (AAA, Object Mother, Builder, test doubles, anti-patterns) apply here — refer to that skill's references for full detail. This skill adds C#-specific patterns and stack guidance.
