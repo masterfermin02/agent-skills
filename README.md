@@ -21,6 +21,7 @@ This repository contains a mix of:
 | [pr-review](./pr-review/) | Full | Review GitHub Pull Requests and apply language-specific review rules |
 | [laravel-money](./laravel-money/) | Full | Use `cknow/laravel-money` for safe monetary values, casts, formatting, and calculations in Laravel |
 | [larastan](./larastan/) | Full | Use Larastan for Laravel-aware PHPStan static analysis, setup, and fixing static analysis errors |
+| [rental-finder](./rental-finder/) | Full | Search, compare, and rank rental options based on budget, neighborhood, trust signals, and lifestyle priorities |
 
 ## Installation
 
