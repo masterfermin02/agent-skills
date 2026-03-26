@@ -20,6 +20,7 @@ This repository contains a mix of:
 | [meal-log](./meal-log/) | Full | Log food and drinks into a fitness log with macro tracking |
 | [pr-review](./pr-review/) | Full | Review GitHub Pull Requests and apply language-specific review rules |
 | [laravel-money](./laravel-money/) | Full | Use `cknow/laravel-money` for safe monetary values, casts, formatting, and calculations in Laravel |
+| [larastan](./larastan/) | Full | Use Larastan for Laravel-aware PHPStan static analysis, setup, and fixing static analysis errors |
 
 ## Installation
 
