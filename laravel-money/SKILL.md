@@ -43,7 +43,9 @@ php artisan vendor:publish --provider="Cknow\Money\MoneyServiceProvider"
 - Always track currency explicitly.
 - Avoid mixing currencies silently.
 - Do calculations on money objects, not formatted strings.
-- Format only at presentation boundaries.
+- Prefer exposing formatted money from the backend/API layer instead of formatting on the frontend.
+- Return both raw and formatted values when useful, e.g. `amount`, `amount_formatted`, and `currency`.
+- Avoid frontend formatting logic when the Laravel backend can provide a canonical formatted string.
 
 ## Common patterns
 

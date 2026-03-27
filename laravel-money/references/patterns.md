@@ -47,7 +47,7 @@ $amount = Money::parse($request->input('amount'), 'USD');
 - Avoid `round()` on raw floats for billing decisions
 
 ## API / resource output
-Use clear output contracts. Example:
+Prefer backend-owned formatting contracts. Example:
 ```php
 return [
     'amount' => $invoice->amount->getAmount(),
@@ -56,11 +56,19 @@ return [
 ];
 ```
 
+This keeps frontend code from re-implementing formatting rules.
+Avoid sending only raw numbers if the UI needs canonical currency display.
+
+## Frontend rule
+Prefer using backend-provided `amount_formatted` (or equivalent) instead of formatting money in the frontend.
+Avoid duplicating locale/currency formatting logic across JS clients.
+
 ## Views
-Format at the last moment:
+Blade can still format directly when rendering on the server:
 ```php
 {{ $order->total->format() }}
 ```
+But for API/Inertia/SPA responses, prefer returning a formatted field from Laravel.
 
 ## Good fit examples
 - invoices

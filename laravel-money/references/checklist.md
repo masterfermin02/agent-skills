@@ -16,7 +16,8 @@ Use this when auditing a Laravel codebase.
 - clear DB storage strategy
 - clear API serialization
 - explicit currency handling
-- formatting only in response/view layer
+- backend-owned formatted fields such as `amount_formatted`
+- avoid frontend money-formatting duplication
 
 ## Migration approach
 1. Identify every monetary column
