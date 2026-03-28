@@ -21,3 +21,7 @@
 
 ## Recommendation
 Default to standard YouTube MP4 unless the user explicitly wants vertical output.
+
+## Title-safe mindset
+For title overlays, keep text centered and away from extreme top/bottom edges.
+Prefer short titles that remain readable on mobile.

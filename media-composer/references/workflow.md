@@ -17,6 +17,13 @@
 - fade in/out
 - subtitles later
 - simple text overlays
+- vertical framing
+- multiple-image sequencing
+
+## Recommended implementation order
+1. vertical preset
+2. multiple-image slideshow
+3. title overlay
 
 ## Delivery mindset
 Prioritize a render that is easy to upload and share over fancy editing.

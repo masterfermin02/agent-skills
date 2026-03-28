@@ -18,9 +18,18 @@ Prefer:
 2. Choose aspect ratio:
    - YouTube standard: 1920x1080
    - Shorts / Reels: 1080x1920
-3. Build a simple video from the image timeline and audio.
-4. Export as MP4 unless the user explicitly wants something else.
-5. Return the output path and summarize the render settings.
+3. Choose render mode:
+   - single still image + audio
+   - slideshow from multiple images
+   - still image + title overlay + audio
+4. Build a simple video from the image timeline and audio.
+5. Export as MP4 unless the user explicitly wants something else.
+6. Return the output path and summarize the render settings.
+
+## Built-in expansion targets
+- vertical preset
+- multiple-image slideshow
+- title overlay
 
 ## Good use cases
 - single photo + audio = MP4
