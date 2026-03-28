@@ -24,6 +24,7 @@ This repository contains a mix of:
 | [rental-finder](./rental-finder/) | Full | Search, compare, and rank rental options based on budget, neighborhood, trust signals, and lifestyle priorities |
 | [pdf-toolkit](./pdf-toolkit/) | Full | Merge, reorder, extract, highlight, and package PDFs for visa, banking, and evidence workflows |
 | [file-share-cli](./file-share-cli/) | Full | Send local files back into Telegram chat using `openclaw message send` when a generated file must be delivered |
+| [media-composer](./media-composer/) | Full | Turn images and audio into simple YouTube-ready MP4 videos with reusable presets |
 | [visa-doc-response](./visa-doc-response/) | Full | Parse visa document requests and turn them into practical checklists with apostille/translation guidance |
 
 ## Installation
