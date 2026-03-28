@@ -23,6 +23,7 @@ This repository contains a mix of:
 | [larastan](./larastan/) | Full | Use Larastan for Laravel-aware PHPStan static analysis, setup, and fixing static analysis errors |
 | [rental-finder](./rental-finder/) | Full | Search, compare, and rank rental options based on budget, neighborhood, trust signals, and lifestyle priorities |
 | [pdf-toolkit](./pdf-toolkit/) | Full | Merge, reorder, extract, highlight, and package PDFs for visa, banking, and evidence workflows |
+| [file-share-cli](./file-share-cli/) | Full | Send local files back into Telegram chat using `openclaw message send` when a generated file must be delivered |
 | [visa-doc-response](./visa-doc-response/) | Full | Parse visa document requests and turn them into practical checklists with apostille/translation guidance |
 
 ## Installation
