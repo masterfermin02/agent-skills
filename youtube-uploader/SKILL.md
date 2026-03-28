@@ -17,8 +17,15 @@ Use this skill when the final output is a YouTube upload or YouTube-ready packag
    - MP4 preferred
    - H.264 video
    - AAC audio
-4. Use the chosen upload path or API workflow.
-5. Return the result clearly: uploaded, scheduled, draft, or blocked by auth/setup.
+4. Confirm YouTube auth/setup exists or guide the user through OAuth setup.
+5. Use the chosen upload path or API workflow.
+6. Return the result clearly: uploaded, scheduled, draft, or blocked by auth/setup.
+
+## Planned tooling
+- OAuth client credentials file
+- stored OAuth token
+- Python upload script
+- optional metadata JSON input
 
 ## Good uses
 - upload a final MP4 to YouTube
