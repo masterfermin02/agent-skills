@@ -22,8 +22,8 @@ Use this skill when the final output is a YouTube upload or YouTube-ready packag
 6. Return the result clearly: uploaded, scheduled, draft, or blocked by auth/setup.
 
 ## Planned tooling
-- OAuth client credentials file
-- stored OAuth token
+- OAuth client credentials file at `~/.openclaw/credentials/youtube.json`
+- stored OAuth token at `~/.openclaw/credentials/youtube-token.json`
 - Python upload script
 - optional metadata JSON input
 

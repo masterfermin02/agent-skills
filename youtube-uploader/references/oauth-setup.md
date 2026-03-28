@@ -11,8 +11,8 @@ Enable repeatable YouTube uploads using the YouTube Data API v3.
 5. local token file after first consent
 
 ## Recommended local paths
-- credentials: `~/.openclaw/secrets/youtube-client-secret.json`
-- token: `~/.openclaw/secrets/youtube-token.json`
+- credentials: `~/.openclaw/credentials/youtube.json`
+- token: `~/.openclaw/credentials/youtube-token.json`
 
 ## Scope
 Use the minimum upload scope needed for video publishing.
