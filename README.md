@@ -25,6 +25,11 @@ This repository contains a mix of:
 | [pdf-toolkit](./pdf-toolkit/) | Full | Merge, reorder, extract, highlight, and package PDFs for visa, banking, and evidence workflows |
 | [file-share-cli](./file-share-cli/) | Full | Send local files back into Telegram chat using `openclaw message send` when a generated file must be delivered |
 | [media-composer](./media-composer/) | Full | Turn images and audio into simple YouTube-ready MP4 videos with reusable presets |
+| [ai-era-architecture](./ai-era-architecture/) | Full | Define pragmatic architecture rules for the AI era before framework-specific implementation |
+| [nodejs-pragmatic-architecture](./nodejs-pragmatic-architecture/) | Full | Apply pragmatic architecture rules to Node.js backends and Node + React systems |
+| [frontend-pragmatic-architecture](./frontend-pragmatic-architecture/) | Full | Apply pragmatic architecture rules to React/Next/frontend projects |
+| [csharp-pragmatic-architecture](./csharp-pragmatic-architecture/) | Full | Apply pragmatic architecture rules to C#/.NET projects without over-engineering |
+| [laravel-pragmatic-architecture](./laravel-pragmatic-architecture/) | Full | Apply pragmatic architecture rules to Laravel projects while staying idiomatic |
 | [youtube-uploader](./youtube-uploader/) | Full | Prepare and upload YouTube videos with the right metadata, privacy, and upload-readiness checks |
 | [visa-doc-response](./visa-doc-response/) | Full | Parse visa document requests and turn them into practical checklists with apostille/translation guidance |
 
